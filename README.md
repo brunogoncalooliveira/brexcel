@@ -1,12 +1,37 @@
 brexcel
 ======
 
-**MOTIVATION**
+###MOTIVATION
 
-Recently, I had to parse lots of excel files that were sent by bussiness departs, so I Then I I had to generate excel files 
+Recently, I had to parse lots of excel files that were sent by bussiness departs and some IT apps. I had to parse these excel files and enrich them with other data (metrics, documentation, etc).
 
-.   was asked what would be the best way to model the following data:
+This work consisted in the following flow:
 
-[![](http://yuml.me/1ca2ca73)](DataExample)
+[![](http://yuml.me/b9072e48)](DataExample)
 
-Translating the abode UML diagram to english, we get something like this:
+This is the my first motivation.
+
+I never packaged a python project so... my second motivation is to package a python project.
+
+
+
+###What brexcel does
+
+
+Simply:
+
+- reads an excel file into a dict
+- writes a dict into an excel file
+
+####Reading excel files
+
+```
+# coding=utf8
+from brexcel.rexcel import RExcel
+from pprint import pprint
+
+f = RExcel('ISO3166-2.xlsx')
+arr = f.getDictByField('Code', ['Name'])
+
+pprint(arr)
+```

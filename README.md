@@ -1,7 +1,7 @@
 brexcel
 ======
 
-####MOTIVATION
+#### MOTIVATION
 
 Recently, I had to parse lots of excel files that were sent by bussiness departs and some IT apps. I had to parse these excel files and enrich them with other data (metrics, documentation, etc).
 
@@ -15,7 +15,7 @@ I never packaged a python project so... my second motivation is to package a pyt
 
 
 
-###What brexcel does
+#### What brexcel does
 
 
 Simply:
@@ -23,7 +23,7 @@ Simply:
 - reads an excel file into a dict
 - writes a dict into an excel file
 
-####Reading excel files
+#### Reading excel files
 
 ```python
 # coding=utf8

@@ -1,7 +1,7 @@
 brexcel
 ======
 
-###MOTIVATION
+####MOTIVATION
 
 Recently, I had to parse lots of excel files that were sent by bussiness departs and some IT apps. I had to parse these excel files and enrich them with other data (metrics, documentation, etc).
 
@@ -25,7 +25,7 @@ Simply:
 
 ####Reading excel files
 
-```
+```python
 # coding=utf8
 from brexcel.rexcel import RExcel
 from pprint import pprint

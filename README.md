@@ -64,5 +64,4 @@ The above will create an excel file like this:
 
 
 > **Note:**
-
 > - See the test files inside tests folder.

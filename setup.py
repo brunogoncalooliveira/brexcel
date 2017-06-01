@@ -2,7 +2,7 @@ from setuptools import setup
 
 
 setup(name='brexcel',
-      version='0.1',
+      version='0.2',
       description='Converts excel to a python dict and vice-versa',
       classifiers=[
         'Development Status :: 2 - Pre-Alpha',

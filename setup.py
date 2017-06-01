@@ -14,6 +14,6 @@ setup(name='brexcel',
       url='https://github.com/brunogoncalooliveira/brexcel',
       author='Bruno Oliveira',
       license='MIT',
-      packages=find_packages(),
+      packages=['brexcel', 'openpyxl'],
       include_package_data=True,
       zip_safe=False)

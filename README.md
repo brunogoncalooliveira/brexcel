@@ -40,7 +40,7 @@ pprint(arr)
 ### Writing excel files
 
 ```python
-from brexcel.rexcel import WExcel
+from brexcel.rexcel import RExcel
 
 arr = [{'Name': u'root node',  'top_id': '',  'id': '1'},
        {'Name': u'First Leaf',  'top_id': '1',  'id': '2'},

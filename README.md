@@ -63,5 +63,8 @@ The above will create an excel file like this:
 | 4           |          | another root node |
 
 
+Be free to ask any question in brexcel group:
+https://groups.google.com/forum/#!forum/brexcel
+
 > **Note:**
 > - See the test files inside tests folder.

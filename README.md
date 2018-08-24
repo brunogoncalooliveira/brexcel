@@ -5,11 +5,7 @@ brexcel
 
 Recently, I had to parse lots of excel files that were sent by bussiness departs and some IT apps. I had to parse these excel files and enrich them with other data (metrics, documentation, etc).
 
-This work consisted in the following flow:
-
-[![](http://yuml.me/b9072e48)](DataExample)
-
-This is the my first motivation.
+My main motivation to create this python module was to automate the parse and creation of excel files.
 
 I never packaged a python project so... my second motivation is to package a python project.
 

@@ -28,13 +28,13 @@ class RExcel:
                          fields.append(i.value)
                 first = False
             else:
-                if row[header[ chave ]].value != '':
-                    if row[header[ chave ]].value not in arr:
-                        arr[row[header[ chave ]].value] = []
-                    tmp = {}
-                    for i in fields:
-                        tmp[i] = row[header[ i ]].value
-                    arr[row[header[ chave ]].value].append(tmp)
+                #if row[header[ chave ]].value != '':
+                if row[header[ chave ]].value not in arr:
+                    arr[row[header[ chave ]].value] = []
+                tmp = {}
+                for i in fields:
+                    tmp[i] = row[header[ i ]].value
+                arr[row[header[ chave ]].value].append(tmp)
 
         return arr
 
